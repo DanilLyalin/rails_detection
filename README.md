@@ -51,10 +51,10 @@ fliplr: 0.5
 Предсказания для всей тестовой выборки содержатся в директории [test_predictions](test_predictions)
 
 Примеры детекции объектов на изображениях тестовой выборки:
-<img height="270" src="/home/danil/TestTasks/rails/rails_detection/test_predictions/2537ia.jpg" width="480"/>
-<img height="270" src="/home/danil/TestTasks/rails/rails_detection/test_predictions/2599ia.jpg" width="480"/>
-<img height="270" src="/home/danil/TestTasks/rails/rails_detection/test_predictions/img_kjtv_44_sec.jpg" width="480"/>
-<img height="270" src="/home/danil/TestTasks/rails/rails_detection/test_predictions/img_kjtv_241_sec.jpg" width="480"/>
+<img height="270" src="test_predictions/2537ia.jpg" width="480"/>
+<img height="270" src="test_predictions/2599ia.jpg" width="480"/>
+<img height="270" src="test_predictions/img_kjtv_44_sec.jpg" width="480"/>
+<img height="270" src="test_predictions/img_kjtv_241_sec.jpg" width="480"/>
 
 Так же, для оценки переобученности модели был сформирован [собственный датасет](rails/test_2) со случайными изображениями из открытых источников. 
 
@@ -62,8 +62,8 @@ fliplr: 0.5
 
 Таким образом, при высокой переобученности, модель бы не смогла обнаружить на них объекты.
 
-<img height="270" src="/home/danil/TestTasks/rails/rails_detection/custom_dataset_predictions/12.jpg" width="480"/>
-<img height="270" src="/home/danil/TestTasks/rails/rails_detection/custom_dataset_predictions/16.jpg" width="480"/>
-<img height="270" src="/home/danil/TestTasks/rails/rails_detection/custom_dataset_predictions/18.jpg" width="480"/>
+<img height="270" src="custom_dataset_predictions/12.jpg" width="480"/>
+<img height="270" src="custom_dataset_predictions/16.jpg" width="480"/>
+<img height="270" src="custom_dataset_predictions/18.jpg" width="480"/>
 
 Как можно заметить, модель может с некоторой долей точности определять рельсы и на фото из других источников. Это свидетельствует об отсутствии явного переобучения и наличии некоторой обобщающей способности.
