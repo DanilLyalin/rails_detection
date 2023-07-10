@@ -1,0 +1,8 @@
+
+path: ../rails
+train: train/images  
+val: test/images
+test: 
+
+names:
+  0: rails
